@@ -15,6 +15,7 @@ public class OneSharkBlogApplication {
         try {
             SpringApplication.run(OneSharkBlogApplication.class, args);
             System.out.println("启动成功！"); // 后面换log打印日志
+            System.out.println("测试git提交");
         } catch (Exception e) {
             e.printStackTrace();
         }
